@@ -60,13 +60,13 @@
 #ifndef AUDIO_H_
 #define AUDIO_H_
 
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xparameters.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xil_io.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xiic.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xil_printf.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xil_cache.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xstatus.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\sleep.h"
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xiic.h"
+#include "xil_printf.h"
+#include "xil_cache.h"
+#include "xstatus.h"
+#include "sleep.h"
 #include "../dma/dma.h"
 #include "../demo.h"
 
