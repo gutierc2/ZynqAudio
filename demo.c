@@ -39,22 +39,22 @@
 
 /***************************** Include Files *********************************/
 
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xaxidma.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xparameters.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xil_exception.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xdebug.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xiic.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xaxidma.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xtime_l.h"
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xil_exception.h"
+#include "xdebug.h"
+#include "xiic.h"
+#include "xaxidma.h"
+#include "xtime_l.h"
 
 
 #ifdef XPAR_INTC_0_DEVICE_ID
  #include "xintc.h"
  #include "microblaze_sleep.h"
 #else
- #include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xscugic.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\sleep.h"
-#include "C:\Users\Christopher\Documents\VivadoProjects\Zybo-DMA\proj\DMA.sdk\dma_bsp\ps7_cortexa9_0\include\xil_cache.h"
+ #include "xscugic.h"
+#include "sleep.h"
+#include "xil_cache.h"
 #endif
 
 /************************** Constant Definitions *****************************/
